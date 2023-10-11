@@ -71,8 +71,8 @@ h1 {
     width: 560px;
     height: 250px;
     margin: 5px auto;
-    background-color: lightblue;
-    background: linear-gradient(to bottom, rgba(179,220,237,1) 0%, rgba(41,184,229,1) 100%);
+    background-color: lightpink;
+    background: linear-gradient(to bottom, rgb(243, 140, 174) 0%, rgb(226, 88, 141) 100%);
     position: relative;
     padding-top: 40px;
     box-sizing: border-box;
@@ -83,8 +83,8 @@ h1 {
     width: 560px;
     height: 250px;
     margin: 5px auto;
-    background-color: lightgreen;
-    background: linear-gradient(to bottom, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+    background-color: lightpink;
+    background: linear-gradient(to bottom, rgb(243, 140, 174) 0%, rgb(226, 88, 141) 100%);
     position: relative;
     border-radius: 0 0 40px 40px;
 }
@@ -92,7 +92,7 @@ h1 {
 .info {
     width: 150px;
     height: 60px;
-    border: 5px solid salmon;
+    border: 5px solid rgb(158, 40, 99);
     position: absolute;
     left: 50%;
     margin-left: -75px;
@@ -103,7 +103,7 @@ h1 {
     z-index: 1;
     text-align: center;
     line-height: 60px;
-    color: #f89bb4;
+    color: #f0507a;
     font-size: 26px;
     text-shadow: 1px 1px 1px rgba(0,0,0,.3);
 }
@@ -134,7 +134,7 @@ img {
 }
 
 .batu:hover, .gunting:hover, .kertas:hover, .active {
-    box-shadow: 0 0 10px 5px limegreen;
+    box-shadow: 0 0 10px 5px rgb(233, 54, 99);
 }
 
 .batu:active, .gunting:active, .kertas:active {
